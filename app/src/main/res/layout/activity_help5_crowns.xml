@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".Help_5Crowns">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="392dp"
+        android:layout_height="58dp"
+        android:text="Help"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/HelptoHome"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="399dp"
+        android:layout_height="189dp"
+        android:scrollbars="vertical"
+        android:text="Five Crowns uses a specialized deck of card with 5 suits, and each hand players are dealt a varying number of cards: 3 for the first hand, 4 for the second hand, up to 13 for the 11th hand. Additionally, the game uses both jokers and wild cards. The wild cards correlate with the number of cards dealt for the hand (e.g., each player has 3 cards to dealt to them for the first hand, so 3’s are wild; the 11th hand has 13 card dealt, so kings are wild)."
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="398dp"
+        android:layout_height="239dp"
+        android:scrollbars="vertical"
+        android:text="Jokers: 50 |  Wild Cards: 20 (changes for each round) |  Kings: 13 points  | Queens: 12 points  | Jacks: 11 points |  All Other: Point value = Face Value (10’s = 10; 9’s = 9, etc.)"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+</androidx.constraintlayout.widget.ConstraintLayout>
