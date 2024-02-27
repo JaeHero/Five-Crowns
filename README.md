@@ -27,5 +27,5 @@ After the application launches, you can start using it to track scores for your 
 <h2>Acknowledgments</h2>
 <ul>
 <li>Developed the Five-Crowns Score Tracker application as part of an Android development course at Ivy Tech</li>
-<li>The project was last modified in 2019</li>
+<li>The project was last modified in 2020</li>
 </ul>
