@@ -15,7 +15,7 @@ Five Crowns Score Tracker is a Kotlin-based Android application, optimized for G
 To set up the project in Android Studio, follow these steps:
 <ol>
 <li>Clone the Repository:</li>
-git clone [enter repository url]
+git clone https://github.com/JaeHero/Five-Crowns.git
 
 <li>Run the Application:</li>
 Ensure you have an emulator set up for Google Pixel 2 or connect a physical device. Then, press 'Run' (▶) in Android Studio to build and run the application.
